@@ -1,4 +1,4 @@
-//this is the version 1.01
+//this is the version 1.00
 const fetchData = async (searchTerm) => {
     const response = await axios.get('http://www.omdbapi.com/', {
         params: {
